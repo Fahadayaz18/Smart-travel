@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* banner css */
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-color: grey;
+    background-image: url('Mahe\ is.jpg');
+}
+#Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background: linear-gradient(to right, rgb(36, 151, 122), rgb(24, 143, 241));
+    width: 100%;
+    padding: 2px 0px;
+}
+#Header h1{
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 200;
+    padding: 0px 20rem 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Navigation a{
+    color: #ffff;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: 2px 10px ;
+    border:2px solid #ffff;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#Navigation a:hover{
+    background-color:  rgb(2, 105, 190);
+    transition: all 0.3s ease-in-out;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.logo img{
+    width: 125px;
+    height: 90px;
+    /* margin: 0px 0px 0px 25px; */
+    padding: 0px 0px 0px 30px;
+}
+
+.banner-details{
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 15%;
+    display: flex;
+}
+.banner-heading{
+    font-size: 60px;
+    padding: 1px 0px 0px 0px;
+    /* position: relative; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 4rem 0px 0px 0px;
+    color: #ffff;
+    text-align: center;
+    /* margin-bottom: 2rem; */
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.banner-heading:hover{
+    -webkit-text-stroke: 2px #ffff;
+    color: transparent;
+}
+.booking{
+    width: 100%;
+    padding: 20px 10px;
+    /* margin-left: 10px; */
+    background-color: rgba(225, 225, 225, .7);
+    display: flex;
+    column-gap: 5px;
+    margin-top: -10rem;
+    align-items: center;
+
+
+}
+.inp{
+    width: 22.5%;
+    /* height: 30px; */
+    display: flex;
+    row-gap: 2px;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+input{
+    height: 30px;
+    text-indent: 5px;
+    font-size: 15px;
+}
+.btn{
+    padding: 18px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+ .book-btn{
+    margin: 20px 5px 0 0;
+    padding: 5px 20px;
+ }
+ .book-btn:hover{
+    background-color:  rgb(2, 105, 190);
+    transition: all 0.3s ease-in-out;
+ }
+
+ /* card css */
+
+.container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 80px;
+
+}
+
+.card{
+background-color: #e0e8ef;
+width: 300px;
+height: 420px;
+margin: 10px 30px;
+border-radius: 15px;
+
+}
+
+.cards{
+
+margin-top: 6px;
+}
+
+
+.container h1{
+/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+margin: -5;
+    padding: 10px 0px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.card-image{
+/* background-color: aqua; */
+height: 160px;
+margin-bottom: 15=px;
+background-size: cover;
+border-radius: 15px 15px 0 0;
+
+}
+.car-1{
+background-image: url(Airport.jpg);
+}
+.car-2 {
+background-image: url(Car.jpg);
+}
+.car-3 {
+background-image: url(Raffles55.jpg);
+}
+
+.card p {
+padding: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+font-size: small;
+}
+
+.card a {
+background-color: #000000;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #ffffff;
+padding: 15px 20px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;
+border-radius: 25px;
+
+}
+
+
+.card h2 {
+text-align: center;
+margin-top: 8px;
+/* margin-bottom: 10px; */
+}
+
+.card h3 {
+text-align: center;
+margin-top: 1rem;
+margin-left: 8px;
+text-decoration: underline;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /* 2nd card */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardbox{
+    /* background-color: aqua; */
+    width: 35rem;
+    margin: 30px;
+    border-radius: 5px;
+}
+.card-image-box{
+    height: 340px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    background: cover;
+    width: -10rem;
+}
+.cardbx-1{
+    background-image: url(Airport.jpg);
+}
+.cardbx-2{
+    background-image: url(Tortoise10.jpg);
+}
+.cardbx-3{
+    background-image: url(ROCKS.jpg);
+}
+.cardbx-4{
+    background-image: url(Praslin12.jpg);
+}
+
+.cardbox p{
+    padding: 10px;
+    font-family: sans-serif;
+    /* text-align: justify; */
+    text-align: center;
+    
+}
+.cardbox h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+.book-btn a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+.footer-content{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, rgb(36, 151, 122), rgb(24, 143, 241));
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+color: #ffff;
+}
+
+ .right{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    width: 300px;
+    
+    
+}
+
+.right i{
+ margin-right: 14px;   
+}
+
+.right a{
+    color: white ;
+    text-decoration: none;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.team li{
+    list-style: none;
+    padding: 1px 8px;
+}
